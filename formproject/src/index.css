@@ -1,7 +1,13 @@
-body {
-  background: rgba(39, 36, 36, 0.959);
-  color: white;
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  background: #4a5568;
+  color: white;
+  box-sizing: border-box;
+
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }

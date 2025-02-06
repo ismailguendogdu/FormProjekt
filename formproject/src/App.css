@@ -50,3 +50,13 @@ button {
 .inputGroup {
   margin-bottom: 10px;
 }
+
+.inputError {
+  border-color: salmon;
+}
+
+.error {
+  color: salmon;
+  font-size: 12px;
+  text-align: left;
+}
