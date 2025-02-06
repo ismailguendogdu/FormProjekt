@@ -14,7 +14,8 @@ form label {
   font-weight: bold;
 }
 
-input {
+input,
+select {
   width: 100%;
   padding: 10px 10px;
   font-size: 16px;
@@ -59,4 +60,23 @@ button {
   color: salmon;
   font-size: 12px;
   text-align: left;
+}
+
+.checkBox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.checkBox input {
+  width: auto;
+}
+
+.checkBox span {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.formLink {
+  color: white;
 }
